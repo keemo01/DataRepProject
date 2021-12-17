@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include partials/nav %>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<div class="wrapper">
+  <h1>
+    <%= title %>
+  </h1>
+  <div class="ra-r"></div>
+
+  <body>
+    <table class="table table-inverse">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+
+        </tr>
+      </thead>
+
+      <tbody>
+        <% if (bloggerlist.length> 0) { %>
+          <% for (let blog of bloggerlist) { %>
+            <a class="single" href="/blogs/ <%= blog._id %>"></a>
+            <tr>
+              <td>
+                <%= blog.name %>
+              </td>
+              <td>
+                <%= blog.description %>
+              </td>
+
+              <td>
+                <a href="/blogs/update/<%= blog._id %>">update<i class="fa fa-edit"></i></a>
+                <a href="/blogs/delete/<%= blog._id %>">delete<i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <% } %>
+              <% } %>
+      </tbody>
+
+    </table>
+
+
+    </table>
+
+  </body>
+</div>
+<% include partials/foot %>
+
+</html>

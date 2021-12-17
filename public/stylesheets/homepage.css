@@ -1,0 +1,171 @@
+* 
+
+body {
+  margin: 1px;
+}
+
+/* Style the header */
+.header {
+  background-color: #f00c0c;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #000;
+    overflow-y: auto;
+    background-image: url(/images/Glassy.png);
+    background-size: cover;
+    background-color: #cccccc;
+  }
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    background: rgb(0, 60, 255);
+  }
+  
+  .wrapper{
+    width: 500px;
+    margin: 0;
+    background-color: #fff;
+    padding: 10px;
+    position: left, center, right;
+  }
+  
+  /* Left column */
+  .leftcolumnwrapper {   
+    float: left;
+    width: 75%;
+    background-color: #fff;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  p{
+    font-size: 20px;
+    margin: 8px;
+  }
+  
+.p {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 10px;
+}
+  
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .li {
+    display: inline;
+  }
+  
+  
+  .li {
+    float: center;
+    line-height: 52px;
+    /* margin: 0 2px; */
+  }
+  li a {
+    line-height: 52px;
+    display: block;
+    height: 52px;
+    color: #666666;
+    font-weight: 600;
+    padding: 0 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #979797;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  
+  
+  .thumb-pr.mn {
+    width: 520px;
+    float: left;
+    background-image: url(/images/Glassy.png) no-repeat center center / cover;
+    color: white;
+    /* line-height: 650px; */
+    height: 480px;
+    padding: 0 40px;
+    font-size: 4em;
+  }
+  
+footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  height:95px;
+  color: #fff;
+  background-color: #333;
+ }

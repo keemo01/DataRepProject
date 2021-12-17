@@ -1,0 +1,35 @@
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+        </div>
+
+        <div class="topnav">
+          <a href="/">Homepage</a>
+          <a href="/blogs/create">Create a blog!</a>
+          <a href="/blogs/update">Update a blog</a></li>
+          <a href="/blogs/delete">Delete a blog</a></li>
+          <a href="/aboutus">About Us</a>
+          <a href="/help">Help</a>
+        </div>
+        </div>
+      </div>
+      <html>
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+          <div class="search-container">
+            <form action="blogs/nav" method="post">
+              <input type="text" placeholder="Search.." id ="search" class="search" name="search" value= <%= "" %>>
+              <button class="search-btn" type="submit">Search</button>
+              <div class="imae"></div>
+            </form>
+          </div>
+        </body>
+      </html>
+    </nav>
+   

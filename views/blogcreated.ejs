@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include partials/nav%>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<h1>Akeem's Blog</h1>
+
+<body>
+  <div class="wrapper">
+    <div style="margin:0 auto ; width:30%; padding:10px">
+      <h2><label>Name</label></h2>
+      <%= blogdetails.name %>
+        <br /> <br /> <br /> <br />
+        <h2><label>Description</label></h2>
+        <%= blogdetails.description %>
+          <br /> <br /> <br /> <br />
+    </div>
+  </div>
+</body>
+
+<footer>
+  <% include partials/foot%>
+</footer>
+
+</html>
